@@ -2700,25 +2700,19 @@ document.getElementById('fileInput').addEventListener('change', e => {
 });
 
 // ===== DEMO PROFILES =====
+
 const DEMO_BASE = 'https://raw.githubusercontent.com/mattiamerlo/BPC/main/';
 
-const DEMO_PROFILES = {
-  circle:  'https://raw.githubusercontent.com/mattiamerlo/BPC/main/demo_circle.dxf',
-  square:  'https://raw.githubusercontent.com/mattiamerlo/BPC/main/demo_square.dxf',
-  cavity:  'https://raw.githubusercontent.com/mattiamerlo/BPC/main/demo_cavity.dxf',
-  complex: 'https://raw.githubusercontent.com/mattiamerlo/BPC/main/demo_HY2352.dxf'
-};
-
 async function loadDemoProfile(key) {
-  const url = DEMO_PROFILES[key];
-  if (!url) return;
+  const names = {circle:'demo_circle.dxf', square:'demo_square.dxf', cavity:'demo_cavity.dxf', complex:'demo_HY2352.dxf'};
+  const labels = {circle:'sezione_tonda', square:'sezione_quadra', cavity:'profilo_cavita', complex:'profilo_HY2352'};
+  const url = DEMO_BASE + (names[key] || key + '.dxf');
   try {
     showToast('Caricamento demo...', 'info');
     const resp = await fetch(url);
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    if (!resp.ok) throw new Error('HTTP ' + resp.status + ' — ' + url);
     const dxfText = await resp.text();
     dxfData = DXFParser.parse(dxfText);
-    const labels = {circle:'sezione_tonda', square:'sezione_quadra', cavity:'profilo_cavita', complex:'profilo_HY2352'};
     currentFileName = labels[key] || 'demo';
     document.getElementById('toolbarFileName').textContent = currentFileName + '.dxf';
     populateLayers(dxfData.layers);
@@ -2732,22 +2726,6 @@ async function loadDemoProfile(key) {
     showToast('Errore caricamento demo: ' + e.message, 'error');
     console.error('Demo load error:', e);
   }
-}
-
-function loadDemoProfile(key) {
-  const dxfText = DEMO_PROFILES[key];
-  if (!dxfText) return;
-  dxfData = DXFParser.parse(dxfText);
-  const labels = {circle:'sezione_tonda', square:'sezione_quadra', cavity:'profilo_cavita', complex:'profilo_HY2352'};
-  currentFileName = labels[key] || 'demo';
-  document.getElementById('toolbarFileName').textContent = currentFileName + '.dxf';
-  populateLayers(dxfData.layers);
-  showToast('Demo caricato: ' + currentFileName, 'success');
-  setTimeout(() => {
-    const items = document.querySelectorAll('#layersList .layer-item');
-    const profItem = [...items].find(el => el.querySelector('.layer-name').textContent === 'PROFILE');
-    (profItem || items[0])?.click();
-  }, 100);
 }
 
 // Demo button — create dropdown
