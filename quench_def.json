@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "quenchW": 700,
+  "quenchH": 500,
+  "rollerOffsetY": 200,
+  "rollerW": 550,
+  "nozzles": [
+    {
+      "id": 1,
+      "x": -150,
+      "y": 250,
+      "angle": 270,
+      "coneAngle": 30,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "UL",
+      "maxRot": 45
+    },
+    {
+      "id": 2,
+      "x": 0,
+      "y": 250,
+      "angle": 270,
+      "coneAngle": 30,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "UC",
+      "maxRot": 0
+    },
+    {
+      "id": 3,
+      "x": -150,
+      "y": -60,
+      "angle": 90,
+      "coneAngle": 90,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "DL",
+      "maxRot": 45
+    },
+    {
+      "id": 4,
+      "x": 0,
+      "y": -60,
+      "angle": 90,
+      "coneAngle": 90,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "DC",
+      "maxRot": 0
+    },
+    {
+      "id": 5,
+      "x": -300,
+      "y": 120,
+      "angle": 0,
+      "coneAngle": 30,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "LU",
+      "maxRot": 30
+    },
+    {
+      "id": 6,
+      "x": -300,
+      "y": 50,
+      "angle": 0,
+      "coneAngle": 30,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "LD",
+      "maxRot": 30
+    },
+    {
+      "id": 8,
+      "x": 150,
+      "y": 250,
+      "angle": 270,
+      "coneAngle": 30,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "ULm",
+      "maxRot": 45
+    },
+    {
+      "id": 10,
+      "x": 150,
+      "y": -60,
+      "angle": 90,
+      "coneAngle": 90,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "DLm",
+      "maxRot": 45
+    },
+    {
+      "id": 12,
+      "x": 300,
+      "y": 120,
+      "angle": 180,
+      "coneAngle": 30,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "LUm",
+      "maxRot": 30
+    },
+    {
+      "id": 13,
+      "x": 300,
+      "y": 50,
+      "angle": 180,
+      "coneAngle": 30,
+      "pressure": 8,
+      "flowRate": 10,
+      "on": true,
+      "label": "LDm",
+      "maxRot": 30
+    }
+  ],
+  "nextId": 17
+}
