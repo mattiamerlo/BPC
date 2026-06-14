@@ -4,6 +4,508 @@
   "quenchH": 500,
   "rollerOffsetY": 200,
   "rollerW": 550,
+  "pressure": 10,
+  "zones": [
+    {
+      "label": "Zona 1",
+      "len": 2000,
+      "pitch": 65,
+      "jetW": 50,
+      "hBetween": 800,
+      "nozzles": [
+        {
+          "id": 1,
+          "x": -150,
+          "y": 250,
+          "angle": 270,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "UL",
+          "maxRot": 45,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 250,
+          "angle": 270,
+          "coneAngle": 45,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "UC",
+          "maxRot": 0,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 45,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.803"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 3,
+          "x": -150,
+          "y": -60,
+          "angle": 90,
+          "coneAngle": 60,
+          "pressure": 8,
+          "flowRate": 7.43876333808248,
+          "on": true,
+          "label": "DL",
+          "maxRot": 45,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 60,
+            "qNom": 5.26,
+            "pRef": 5,
+            "code": "652.884"
+          },
+          "qNom": 5.26,
+          "pRef": 5
+        },
+        {
+          "id": 4,
+          "x": 0,
+          "y": -60,
+          "angle": 90,
+          "coneAngle": 90,
+          "pressure": 8,
+          "flowRate": 7.43876333808248,
+          "on": true,
+          "label": "DC",
+          "maxRot": 0,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 90,
+            "qNom": 5.26,
+            "pRef": 5,
+            "code": "652.886"
+          },
+          "qNom": 5.26,
+          "pRef": 5
+        },
+        {
+          "id": 5,
+          "x": -300,
+          "y": 120,
+          "angle": 0,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "LU",
+          "maxRot": 30,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 6,
+          "x": -300,
+          "y": 50,
+          "angle": 0,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "LD",
+          "maxRot": 30,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 8,
+          "x": 150,
+          "y": 250,
+          "angle": 270,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "ULm",
+          "maxRot": 45,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 10,
+          "x": 150,
+          "y": -60,
+          "angle": 90,
+          "coneAngle": 60,
+          "pressure": 8,
+          "flowRate": 7.43876333808248,
+          "on": true,
+          "label": "DLm",
+          "maxRot": 45,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 60,
+            "qNom": 5.26,
+            "pRef": 5,
+            "code": "652.884"
+          },
+          "qNom": 5.26,
+          "pRef": 5
+        },
+        {
+          "id": 12,
+          "x": 300,
+          "y": 120,
+          "angle": 180,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "LUm",
+          "maxRot": 30,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 13,
+          "x": 300,
+          "y": 50,
+          "angle": 180,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "LDm",
+          "maxRot": 30,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        }
+      ]
+    },
+    {
+      "label": "Zona 2",
+      "len": 4000,
+      "pitch": 130,
+      "jetW": 50,
+      "hBetween": 800,
+      "nozzles": [
+        {
+          "id": 1,
+          "x": -150,
+          "y": 250,
+          "angle": 270,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "UL",
+          "maxRot": 45,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 2,
+          "x": 0,
+          "y": 250,
+          "angle": 270,
+          "coneAngle": 45,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "UC",
+          "maxRot": 0,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 45,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.803"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 3,
+          "x": -150,
+          "y": -60,
+          "angle": 90,
+          "coneAngle": 60,
+          "pressure": 8,
+          "flowRate": 7.43876333808248,
+          "on": true,
+          "label": "DL",
+          "maxRot": 45,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 60,
+            "qNom": 5.26,
+            "pRef": 5,
+            "code": "652.884"
+          },
+          "qNom": 5.26,
+          "pRef": 5
+        },
+        {
+          "id": 4,
+          "x": 0,
+          "y": -60,
+          "angle": 90,
+          "coneAngle": 90,
+          "pressure": 8,
+          "flowRate": 7.43876333808248,
+          "on": true,
+          "label": "DC",
+          "maxRot": 0,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 90,
+            "qNom": 5.26,
+            "pRef": 5,
+            "code": "652.886"
+          },
+          "qNom": 5.26,
+          "pRef": 5
+        },
+        {
+          "id": 5,
+          "x": -300,
+          "y": 120,
+          "angle": 0,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "LU",
+          "maxRot": 30,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 6,
+          "x": -300,
+          "y": 50,
+          "angle": 0,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "LD",
+          "maxRot": 30,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 8,
+          "x": 150,
+          "y": 250,
+          "angle": 270,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "ULm",
+          "maxRot": 45,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 10,
+          "x": 150,
+          "y": -60,
+          "angle": 90,
+          "coneAngle": 60,
+          "pressure": 8,
+          "flowRate": 7.43876333808248,
+          "on": true,
+          "label": "DLm",
+          "maxRot": 45,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 60,
+            "qNom": 5.26,
+            "pRef": 5,
+            "code": "652.884"
+          },
+          "qNom": 5.26,
+          "pRef": 5
+        },
+        {
+          "id": 12,
+          "x": 300,
+          "y": 120,
+          "angle": 180,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "LUm",
+          "maxRot": 30,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        },
+        {
+          "id": 13,
+          "x": 300,
+          "y": 50,
+          "angle": 180,
+          "coneAngle": 30,
+          "pressure": 8,
+          "flowRate": 4.652762620207483,
+          "on": true,
+          "label": "LDm",
+          "maxRot": 30,
+          "jetType": "flat",
+          "catalog": {
+            "manufacturer": "Lechler",
+            "series": "652",
+            "type": "flat",
+            "angle": 30,
+            "qNom": 3.29,
+            "pRef": 5,
+            "code": "652.802"
+          },
+          "qNom": 3.29,
+          "pRef": 5
+        }
+      ]
+    }
+  ],
+  "activeZone": 1,
   "nozzles": [
     {
       "id": 1,
@@ -12,34 +514,70 @@
       "angle": 270,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 4.652762620207483,
       "on": true,
       "label": "UL",
-      "maxRot": 45
+      "maxRot": 45,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 30,
+        "qNom": 3.29,
+        "pRef": 5,
+        "code": "652.802"
+      },
+      "qNom": 3.29,
+      "pRef": 5
     },
     {
       "id": 2,
       "x": 0,
       "y": 250,
       "angle": 270,
-      "coneAngle": 30,
+      "coneAngle": 45,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 4.652762620207483,
       "on": true,
       "label": "UC",
-      "maxRot": 0
+      "maxRot": 0,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 45,
+        "qNom": 3.29,
+        "pRef": 5,
+        "code": "652.803"
+      },
+      "qNom": 3.29,
+      "pRef": 5
     },
     {
       "id": 3,
       "x": -150,
       "y": -60,
       "angle": 90,
-      "coneAngle": 90,
+      "coneAngle": 60,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 7.43876333808248,
       "on": true,
       "label": "DL",
-      "maxRot": 45
+      "maxRot": 45,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 60,
+        "qNom": 5.26,
+        "pRef": 5,
+        "code": "652.884"
+      },
+      "qNom": 5.26,
+      "pRef": 5
     },
     {
       "id": 4,
@@ -48,10 +586,22 @@
       "angle": 90,
       "coneAngle": 90,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 7.43876333808248,
       "on": true,
       "label": "DC",
-      "maxRot": 0
+      "maxRot": 0,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 90,
+        "qNom": 5.26,
+        "pRef": 5,
+        "code": "652.886"
+      },
+      "qNom": 5.26,
+      "pRef": 5
     },
     {
       "id": 5,
@@ -60,10 +610,22 @@
       "angle": 0,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 4.652762620207483,
       "on": true,
       "label": "LU",
-      "maxRot": 30
+      "maxRot": 30,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 30,
+        "qNom": 3.29,
+        "pRef": 5,
+        "code": "652.802"
+      },
+      "qNom": 3.29,
+      "pRef": 5
     },
     {
       "id": 6,
@@ -72,10 +634,22 @@
       "angle": 0,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 4.652762620207483,
       "on": true,
       "label": "LD",
-      "maxRot": 30
+      "maxRot": 30,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 30,
+        "qNom": 3.29,
+        "pRef": 5,
+        "code": "652.802"
+      },
+      "qNom": 3.29,
+      "pRef": 5
     },
     {
       "id": 8,
@@ -84,22 +658,46 @@
       "angle": 270,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 4.652762620207483,
       "on": true,
       "label": "ULm",
-      "maxRot": 45
+      "maxRot": 45,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 30,
+        "qNom": 3.29,
+        "pRef": 5,
+        "code": "652.802"
+      },
+      "qNom": 3.29,
+      "pRef": 5
     },
     {
       "id": 10,
       "x": 150,
       "y": -60,
       "angle": 90,
-      "coneAngle": 90,
+      "coneAngle": 60,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 7.43876333808248,
       "on": true,
       "label": "DLm",
-      "maxRot": 45
+      "maxRot": 45,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 60,
+        "qNom": 5.26,
+        "pRef": 5,
+        "code": "652.884"
+      },
+      "qNom": 5.26,
+      "pRef": 5
     },
     {
       "id": 12,
@@ -108,10 +706,22 @@
       "angle": 180,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 4.652762620207483,
       "on": true,
       "label": "LUm",
-      "maxRot": 30
+      "maxRot": 30,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 30,
+        "qNom": 3.29,
+        "pRef": 5,
+        "code": "652.802"
+      },
+      "qNom": 3.29,
+      "pRef": 5
     },
     {
       "id": 13,
@@ -120,11 +730,23 @@
       "angle": 180,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 10,
+      "flowRate": 4.652762620207483,
       "on": true,
       "label": "LDm",
-      "maxRot": 30
+      "maxRot": 30,
+      "jetType": "flat",
+      "catalog": {
+        "manufacturer": "Lechler",
+        "series": "652",
+        "type": "flat",
+        "angle": 30,
+        "qNom": 3.29,
+        "pRef": 5,
+        "code": "652.802"
+      },
+      "qNom": 3.29,
+      "pRef": 5
     }
   ],
-  "nextId": 17
+  "nextId": 1
 }
