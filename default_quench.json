@@ -20,7 +20,7 @@
           "angle": 270,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "UL",
           "maxRot": 45,
@@ -30,11 +30,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -44,7 +44,7 @@
           "angle": 270,
           "coneAngle": 45,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "UC",
           "maxRot": 0,
@@ -54,11 +54,11 @@
             "series": "652",
             "type": "flat",
             "angle": 45,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.803"
+            "code": "652.643"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -92,7 +92,7 @@
           "angle": 90,
           "coneAngle": 90,
           "pressure": 8,
-          "flowRate": 7.43876333808248,
+          "flowRate": 10.620743853421944,
           "on": true,
           "label": "DC",
           "maxRot": 0,
@@ -102,11 +102,11 @@
             "series": "652",
             "type": "flat",
             "angle": 90,
-            "qNom": 5.26,
+            "qNom": 7.51,
             "pRef": 5,
-            "code": "652.886"
+            "code": "652.676"
           },
-          "qNom": 5.26,
+          "qNom": 7.51,
           "pRef": 5
         },
         {
@@ -116,7 +116,7 @@
           "angle": 0,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "LU",
           "maxRot": 30,
@@ -126,11 +126,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -140,7 +140,7 @@
           "angle": 0,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "LD",
           "maxRot": 30,
@@ -150,11 +150,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -164,7 +164,7 @@
           "angle": 270,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "ULm",
           "maxRot": 45,
@@ -174,11 +174,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -188,7 +188,7 @@
           "angle": 90,
           "coneAngle": 60,
           "pressure": 8,
-          "flowRate": 7.43876333808248,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "DLm",
           "maxRot": 45,
@@ -198,11 +198,11 @@
             "series": "652",
             "type": "flat",
             "angle": 60,
-            "qNom": 5.26,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.884"
+            "code": "652.644"
           },
-          "qNom": 5.26,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -212,7 +212,7 @@
           "angle": 180,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "LUm",
           "maxRot": 30,
@@ -222,11 +222,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -236,7 +236,7 @@
           "angle": 180,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "LDm",
           "maxRot": 30,
@@ -246,11 +246,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         }
       ]
@@ -269,7 +269,7 @@
           "angle": 270,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "UL",
           "maxRot": 45,
@@ -279,11 +279,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -293,7 +293,7 @@
           "angle": 270,
           "coneAngle": 45,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "UC",
           "maxRot": 0,
@@ -303,11 +303,11 @@
             "series": "652",
             "type": "flat",
             "angle": 45,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.803"
+            "code": "652.643"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -341,7 +341,7 @@
           "angle": 90,
           "coneAngle": 90,
           "pressure": 8,
-          "flowRate": 7.43876333808248,
+          "flowRate": 10.620743853421944,
           "on": true,
           "label": "DC",
           "maxRot": 0,
@@ -351,11 +351,11 @@
             "series": "652",
             "type": "flat",
             "angle": 90,
-            "qNom": 5.26,
+            "qNom": 7.51,
             "pRef": 5,
-            "code": "652.886"
+            "code": "652.676"
           },
-          "qNom": 5.26,
+          "qNom": 7.51,
           "pRef": 5
         },
         {
@@ -365,7 +365,7 @@
           "angle": 0,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "LU",
           "maxRot": 30,
@@ -375,11 +375,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -389,7 +389,7 @@
           "angle": 0,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "LD",
           "maxRot": 30,
@@ -399,11 +399,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -413,7 +413,7 @@
           "angle": 270,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "ULm",
           "maxRot": 45,
@@ -423,11 +423,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -437,7 +437,7 @@
           "angle": 90,
           "coneAngle": 60,
           "pressure": 8,
-          "flowRate": 7.43876333808248,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "DLm",
           "maxRot": 45,
@@ -447,11 +447,11 @@
             "series": "652",
             "type": "flat",
             "angle": 60,
-            "qNom": 5.26,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.884"
+            "code": "652.644"
           },
-          "qNom": 5.26,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -461,7 +461,7 @@
           "angle": 180,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "LUm",
           "maxRot": 30,
@@ -471,11 +471,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         },
         {
@@ -485,7 +485,7 @@
           "angle": 180,
           "coneAngle": 30,
           "pressure": 8,
-          "flowRate": 4.652762620207483,
+          "flowRate": 8.951971849821692,
           "on": true,
           "label": "LDm",
           "maxRot": 30,
@@ -495,11 +495,11 @@
             "series": "652",
             "type": "flat",
             "angle": 30,
-            "qNom": 3.29,
+            "qNom": 6.33,
             "pRef": 5,
-            "code": "652.802"
+            "code": "652.642"
           },
-          "qNom": 3.29,
+          "qNom": 6.33,
           "pRef": 5
         }
       ]
@@ -514,7 +514,7 @@
       "angle": 270,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 4.652762620207483,
+      "flowRate": 8.951971849821692,
       "on": true,
       "label": "UL",
       "maxRot": 45,
@@ -524,11 +524,11 @@
         "series": "652",
         "type": "flat",
         "angle": 30,
-        "qNom": 3.29,
+        "qNom": 6.33,
         "pRef": 5,
-        "code": "652.802"
+        "code": "652.642"
       },
-      "qNom": 3.29,
+      "qNom": 6.33,
       "pRef": 5
     },
     {
@@ -538,7 +538,7 @@
       "angle": 270,
       "coneAngle": 45,
       "pressure": 8,
-      "flowRate": 4.652762620207483,
+      "flowRate": 8.951971849821692,
       "on": true,
       "label": "UC",
       "maxRot": 0,
@@ -548,11 +548,11 @@
         "series": "652",
         "type": "flat",
         "angle": 45,
-        "qNom": 3.29,
+        "qNom": 6.33,
         "pRef": 5,
-        "code": "652.803"
+        "code": "652.643"
       },
-      "qNom": 3.29,
+      "qNom": 6.33,
       "pRef": 5
     },
     {
@@ -586,7 +586,7 @@
       "angle": 90,
       "coneAngle": 90,
       "pressure": 8,
-      "flowRate": 7.43876333808248,
+      "flowRate": 10.620743853421944,
       "on": true,
       "label": "DC",
       "maxRot": 0,
@@ -596,11 +596,11 @@
         "series": "652",
         "type": "flat",
         "angle": 90,
-        "qNom": 5.26,
+        "qNom": 7.51,
         "pRef": 5,
-        "code": "652.886"
+        "code": "652.676"
       },
-      "qNom": 5.26,
+      "qNom": 7.51,
       "pRef": 5
     },
     {
@@ -610,7 +610,7 @@
       "angle": 0,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 4.652762620207483,
+      "flowRate": 8.951971849821692,
       "on": true,
       "label": "LU",
       "maxRot": 30,
@@ -620,11 +620,11 @@
         "series": "652",
         "type": "flat",
         "angle": 30,
-        "qNom": 3.29,
+        "qNom": 6.33,
         "pRef": 5,
-        "code": "652.802"
+        "code": "652.642"
       },
-      "qNom": 3.29,
+      "qNom": 6.33,
       "pRef": 5
     },
     {
@@ -634,7 +634,7 @@
       "angle": 0,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 4.652762620207483,
+      "flowRate": 8.951971849821692,
       "on": true,
       "label": "LD",
       "maxRot": 30,
@@ -644,11 +644,11 @@
         "series": "652",
         "type": "flat",
         "angle": 30,
-        "qNom": 3.29,
+        "qNom": 6.33,
         "pRef": 5,
-        "code": "652.802"
+        "code": "652.642"
       },
-      "qNom": 3.29,
+      "qNom": 6.33,
       "pRef": 5
     },
     {
@@ -658,7 +658,7 @@
       "angle": 270,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 4.652762620207483,
+      "flowRate": 8.951971849821692,
       "on": true,
       "label": "ULm",
       "maxRot": 45,
@@ -668,11 +668,11 @@
         "series": "652",
         "type": "flat",
         "angle": 30,
-        "qNom": 3.29,
+        "qNom": 6.33,
         "pRef": 5,
-        "code": "652.802"
+        "code": "652.642"
       },
-      "qNom": 3.29,
+      "qNom": 6.33,
       "pRef": 5
     },
     {
@@ -682,7 +682,7 @@
       "angle": 90,
       "coneAngle": 60,
       "pressure": 8,
-      "flowRate": 7.43876333808248,
+      "flowRate": 8.951971849821692,
       "on": true,
       "label": "DLm",
       "maxRot": 45,
@@ -692,11 +692,11 @@
         "series": "652",
         "type": "flat",
         "angle": 60,
-        "qNom": 5.26,
+        "qNom": 6.33,
         "pRef": 5,
-        "code": "652.884"
+        "code": "652.644"
       },
-      "qNom": 5.26,
+      "qNom": 6.33,
       "pRef": 5
     },
     {
@@ -706,7 +706,7 @@
       "angle": 180,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 4.652762620207483,
+      "flowRate": 8.951971849821692,
       "on": true,
       "label": "LUm",
       "maxRot": 30,
@@ -716,11 +716,11 @@
         "series": "652",
         "type": "flat",
         "angle": 30,
-        "qNom": 3.29,
+        "qNom": 6.33,
         "pRef": 5,
-        "code": "652.802"
+        "code": "652.642"
       },
-      "qNom": 3.29,
+      "qNom": 6.33,
       "pRef": 5
     },
     {
@@ -730,7 +730,7 @@
       "angle": 180,
       "coneAngle": 30,
       "pressure": 8,
-      "flowRate": 4.652762620207483,
+      "flowRate": 8.951971849821692,
       "on": true,
       "label": "LDm",
       "maxRot": 30,
@@ -740,11 +740,11 @@
         "series": "652",
         "type": "flat",
         "angle": 30,
-        "qNom": 3.29,
+        "qNom": 6.33,
         "pRef": 5,
-        "code": "652.802"
+        "code": "652.642"
       },
-      "qNom": 3.29,
+      "qNom": 6.33,
       "pRef": 5
     }
   ],
